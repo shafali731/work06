@@ -1,3 +1,8 @@
+//Shafali Gupta
+//Period 5
+//Construction
+//2018-10-03
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
