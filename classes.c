@@ -28,8 +28,11 @@ void modify(struct classes * a, char *_name, int _seats ){
 void main(){
   srand(time(NULL));
   struct classes examp;
+  printf("============ random class 'examp' created ================\n");
+
   examp = random_class();
   print_class(examp);
+  printf("============ modified class ================\n");
   modify(&examp, "western political thought", 24);
   print_class(examp);
 }
